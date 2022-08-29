@@ -1,4 +1,4 @@
-document.addEventListener("load", geoPosition());
+// document.addEventListener("load", geoPosition());
 
 let d = new Date()
 let dstring = d.toString().split(" ")
@@ -11,14 +11,14 @@ function geoPosition(){
   		}
 }
 
-// let coordinates = {
-// 	coords : {
-// 		latitude : -6.9038,
-// 		longitude: 101.7930
-// 	}
-// }
+let coordinates = {
+	coords : {
+		latitude : 36.3175,
+		longitude: -81.6554
+	}
+}
 
-// runApi(coordinates)
+runApi(coordinates)
 
 function runApi(l){
 	console.log(l);
