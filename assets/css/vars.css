@@ -1,0 +1,26 @@
+:root{
+    --bg-clr-2: #0A1824;
+    --bg-clr-5: #01213D;
+    
+
+
+    /* -----typography---- */
+    --font-size-sm: clamp(0.83rem, -0.12vw + 0.86rem, 0.75rem);
+    --font-size-base: clamp(1rem, 0.18vw + 0.96rem, 1.13rem);
+    --font-size-md: clamp(1.2rem, 0.7vw + 1.06rem, 1.69rem);
+    --font-size-lg: clamp(1.44rem, 1.56vw + 1.13rem, 2.53rem);
+    --font-size-xl: clamp(1.73rem, 2.96vw + 1.14rem, 3.8rem);
+    --font-size-xxl: clamp(2.07rem, 5.17vw + 1.04rem, 5.7rem);
+
+    /* -----spacing------- */
+
+    --space-3xs: clamp(0.25rem, calc(0.21rem + 0.18vw), 0.38rem);
+    --space-2xs: clamp(0.50rem, calc(0.43rem + 0.36vw), 0.75rem);
+    --space-xs: clamp(0.75rem, calc(0.64rem + 0.54vw), 1.13rem);
+    --space-s: clamp(1.00rem, calc(0.86rem + 0.71vw), 1.50rem);
+    --space-m: clamp(1.50rem, calc(1.29rem + 1.07vw), 2.25rem);
+    --space-l: clamp(2.00rem, calc(1.71rem + 1.43vw), 3.00rem);
+    --space-xl: clamp(3.00rem, calc(2.57rem + 2.14vw), 4.50rem);
+    --space-2xl: clamp(4.00rem, calc(3.43rem + 2.86vw), 6.00rem);
+    --space-3xl: clamp(6.00rem, calc(5.14rem + 4.29vw), 9.00rem);
+}

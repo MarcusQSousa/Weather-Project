@@ -1,0 +1,186 @@
+html{
+    scroll-behavior: smooth;
+}
+
+body{
+    
+    background:url(../images/img8.jpg);
+    background-repeat: no-repeat;
+    background-size: 100% 100vh;
+    background-color: #151638;
+}
+
+.mainData{
+ margin-top: 64px;
+}
+
+.mainData span {
+    font-size: 56px;
+}
+
+.mainData p {
+    font-size: 24px;
+}
+
+
+.secondaryData{
+    margin-top: 64px;
+    display: flex;
+    width: 100%;
+    background-color: #ffffff22;
+    padding: 16px 0;
+}
+
+.secondaryData> div{
+    flex-grow: 1;
+    flex-basis: 0;
+    text-align: center;
+}
+
+.secondaryData h4{
+    font-size: 18px;
+    font-weight: 700;
+}
+
+.secondaryData p {
+    line-height: 48px;
+    font-size: 48px;
+}
+
+.today{
+
+    width: 100%;
+    height: 100vh;
+    padding: 48px 16px;
+    overflow: hidden;
+}
+
+.today-container{
+    margin: 0 auto;
+    width: 100%;
+    max-width: 700px;
+    height: 100%;
+    background: #262B4044;
+    position: relative;
+    backdrop-filter: blur(5px);
+    border-radius: 20px;
+    overflow: hidden;
+    padding: 32px 64px;
+}
+
+.current{
+    height: 100%;
+    position: relative;
+}
+
+.time{
+    text-align: center;
+}
+
+p.date{
+    height: fit-content;
+    font-size: 22px;
+}
+
+span.day{
+    font-size: 32px;
+}
+
+p.weather{
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    font-size: 22px;
+}
+
+p.weather span{
+    margin-right: 50px;
+}
+
+
+.hourlyTemp{
+    /* filter: saturate(0); */
+    /* opacity: .5; */
+    position: absolute;
+    bottom: 0;
+    background: hsl(208, 97%, 12%,.4);
+    padding: 16px 0;
+    width: 100%;
+    overflow-x: hidden;
+    transition:  300ms 200ms ease;
+    padding: 16px;
+    scroll-behavior: smooth;
+}   
+
+.table{
+    display: flex;
+    height: 150px;
+}
+
+.table .tableHeader{
+    flex-grow: 0;
+    width: fit-content;
+    padding-left: 0;
+    border-left: none;
+} 
+
+.table>div{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    flex-grow: 1;
+    flex-basis: 0;
+    text-align: center;
+    padding: 0 16px;
+    height: 100%;
+    width: fit-content;
+    border-left: 2px solid #ffffff55;
+
+} 
+
+.daily{
+    width: 100%;
+    max-width: 1100px;
+    margin: 20px auto;
+    background: hsl(243, 20%, 50%);
+    padding: 40px 80px;
+    border-radius: 20px;
+    backdrop-filter: blur(8px);
+    height: 500px;
+    overflow: hidden;
+    scroll-behavior: smooth;
+}
+
+.daily > div{
+    width: 100%;
+    background: hsl(243, 55%, 15%);
+    border-radius: 20px;
+    height: 140px;
+    
+    position: relative;
+    display: flex;
+    align-items: center;
+    margin-bottom: 40px;
+}
+
+.daily .data{
+    height: 100%;
+    width: 80px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-right: 2px solid hsla(243, 55%, 50%, 0.2);
+}
+
+.daily img{
+    position: absolute;
+    top: 0;
+    left: 50px;
+    z-index: 300px;
+    transform: translateY(-50%);
+}
+
+.daily-temp{
+    padding: 20px;
+    height: 100%;
+}

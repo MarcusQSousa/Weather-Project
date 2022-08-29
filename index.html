@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="Content-Security-Policy" content="upgrade-insecure-requests"> 
+    <link rel="stylesheet" href="assets/css/reset.css">
+    <link rel="stylesheet" href="assets/css/vars.css">
+    <link rel="stylesheet" href="assets/css/style.css">
+    <link rel="stylesheet" href="assets/css/responsive.css">
+    <title>Weather Here</title>
+</head>
+<body>
+
+    <section class="today">
+        <div class="today-container">
+            <div class="current">
+                <div class="time">
+                    <p class="date" id="displayHour"></p>
+                    <p id="displayDate"> </p>
+                </div>
+                    
+                <div class="mainData">
+                  <img src="/assets/images/iconTemp.svg" alt="">  <span id="displayCurrentTemp"></span>
+                  <p id="displayCurrentWeather"></p>
+                </div>
+
+
+                <div class="secondaryData">
+                    
+                    <div class="feelsLike"> <h4>Feels Like</h4> <p id="displayFeelsLike"></p> <span>°c</span> </div>
+                    <div class="windspeed"> <h4>Wind Speed</h4> <p id="displayWindspeed"></p> <span>km/h</span> </div>
+                    <div class="humidity"> <h4>Humidity</h4> <p id="displayHumidity"></p> <span>%</span> </div>
+                </div>
+
+
+                <div class="hourlyTemp" id="tableContainer">
+                    <div class="table" id="table">
+                        <div class="tableHeader">
+                            <p>Weather</p>
+                            <p>Temp</p>
+                            <p>Time</p>
+                        </div>
+                    </div>
+                </div>
+
+            </div >
+            
+            
+        </div>
+    </section>
+
+    <script src="assets/js/index.js"></script>
+</body>
+</html>
+
+
+
